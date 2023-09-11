@@ -1,0 +1,41 @@
+/* Style de la barre de recherche */
+#search-container {
+    display: flex;
+    align-items: center; /* Centrer verticalement */
+    width: 100%;
+    max-width: 300px; /* Largeur maximale de la barre de recherche */
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 20px; /* Coins arrondis */
+    overflow: hidden; /* Masquer le débordement du bouton */
+}
+
+#search-input {
+    flex: 1; /* Utilisez tout l'espace disponible */
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Style du bouton de recherche */
+#search-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 0 20px 20px 0; /* Coin arrondi à gauche */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+#filter-options {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#plant-list {
+    display: flex;
+    flex-wrap: wrap;
+}
