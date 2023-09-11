@@ -1,4 +1,4 @@
-<div class="navbar md:h-2/7 flex flex-row justify-center bg-colornav">
+<div class="navbar md:h-1/7 flex flex-row justify-center bg-colornav">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
