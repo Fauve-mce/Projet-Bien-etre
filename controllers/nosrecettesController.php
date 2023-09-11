@@ -7,5 +7,5 @@ $query = "";
 //logique métier 
 //afficher et recup articles 
 
-
+mon commentaire
 //inclure_once .....; views.php
