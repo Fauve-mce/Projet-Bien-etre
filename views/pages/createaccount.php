@@ -1,4 +1,3 @@
-
 <main>
 <h1>Inscription<h/1>
 
@@ -18,13 +17,25 @@
 
       <form class="mt-6" action="#" method="POST">
         <div>
-          <label class="block text-gray-700">Email Address</label>
-          <input type="email" name="" id="" placeholder="Enter Email Address" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none" autofocus autocomplete required>
+          <label class="block text-gray-700">Prénom</label>
+          <input type="text" name="prénom" id="prénom" placeholder="Enter Email Address" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none" autofocus autocomplete required>
+        </div>
+
+        <div class="mt-4">
+          <label class="block text-gray-700">Nom</label>
+          <input type="text" name="nom" id="nom" placeholder="Enter Password" minlength="6" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500
+                focus:bg-white focus:outline-none" required>
+        </div>
+
+        <div class="mt-4">
+          <label class="block text-gray-700">Email</label>
+          <input type="text" name="email" id="email" placeholder="Enter Password" minlength="6" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500
+                focus:bg-white focus:outline-none" required>
         </div>
 
         <div class="mt-4">
           <label class="block text-gray-700">Password</label>
-          <input type="password" name="" id="" placeholder="Enter Password" minlength="6" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500
+          <input type="text" name="password" id="password" placeholder="Enter Password" minlength="6" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500
                 focus:bg-white focus:outline-none" required>
         </div>
 
@@ -48,7 +59,7 @@
             </div>
           </button>
 
-      <p class="mt-8">Need an account? <a href="#" class="text-blue-500 hover:text-blue-700 font-semibold">Create an
+      <p class="mt-8">Need an account? <a href="?page=create-account" class="text-blue-500 hover:text-blue-700 font-semibold">Create an
               account</a></p>
 
 

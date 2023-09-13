@@ -24,6 +24,10 @@ if(isset($_GET['page'])){
             include_once 'controllers/inscriptionController.php';
             break;
 
+        case 'create-account':
+            include_once 'controllers/createaccountController.php';
+            break;
+
         case 'accueil':
             include_once 'controllers/acceuilController.php';
             break;
