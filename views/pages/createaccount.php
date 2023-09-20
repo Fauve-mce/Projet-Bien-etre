@@ -47,7 +47,7 @@
 
               <div class="form-control mt-4">
                 <label class="label cursor-pointer">
-                <span class="label-text">J'accepte tous les thermes&Conditions</span> 
+                <span class="label-text">J'ai lu et j'accepte tous les termes&Conditions</span> 
                 <input type="checkbox" checked="checked" class="checkbox checkbox-primary" />
                 </label>
               </div>
@@ -58,7 +58,7 @@
 
             <hr class="my-6 border-gray-300 w-full">
 
-            <p class="mt-8">Déjà un compte? <a href="?page=inscription" class="text-blue-500 hover:text-blue-700 font-semibold">Connectez-Vous
+            <p class="mt-8">Déjà un compte? <a href="?page=connexion" class="text-blue-500 hover:text-blue-700 font-semibold">Connectez-Vous
                 </a></p>
 
 

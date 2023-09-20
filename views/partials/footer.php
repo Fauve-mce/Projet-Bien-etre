@@ -1,7 +1,7 @@
 <footer class="footer footer-center p-10 bg-colorfooter text-base-content rounded mt-20">
     <nav class="grid grid-flow-col gap-4">
       <a class="link link-hover">Contact</a> 
-      <a class="link link-hover">Inscription</a> 
+      <a class="link link-hover" href="?page=create-account">Inscription</a> 
       <a class="link link-hover">news letter</a> 
       <a class="link link-hover">A propos</a>
     </nav> 

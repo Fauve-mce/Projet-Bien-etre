@@ -51,7 +51,7 @@
           </ul>
         </details>
       </li>
-      <li><a href="?page=inscription">Inscription</a></li>
+      <li><a href="?page=connexion">Connexion</a></li>
       <li><a href="?page=contact">Contact</a></li>
     </ul>
   </div>

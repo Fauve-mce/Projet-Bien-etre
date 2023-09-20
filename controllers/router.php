@@ -20,8 +20,8 @@ if(isset($_GET['page'])){
             include_once 'controllers/contactController.php';
             break;
 
-        case 'inscription':
-            include_once 'controllers/inscriptionController.php';
+        case 'connexion':
+            include_once 'controllers/connexionController.php';
             break;
 
         case 'create-account':
