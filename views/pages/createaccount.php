@@ -47,7 +47,7 @@
 
               <div class="form-control mt-4">
                 <label class="label cursor-pointer">
-                <span class="label-text">J'accepte tous les thermes&Conditions</span> 
+                <span class="label-text">J'ai lu et j'accepte tous les termes&Conditions</span> 
                 <input type="checkbox" checked="checked" class="checkbox checkbox-primary" />
                 </label>
               </div>
