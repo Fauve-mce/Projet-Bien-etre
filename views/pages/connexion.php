@@ -1,8 +1,6 @@
 
 <main>
-<h1>Connexion<h/1>
-
-<section class="flex flex-col md:flex-row h-screen items-center">
+<section class="flex flex-col md:flex-row h-screen items-center mt-20">
 
   <div class="bg-indigo-200 hidden lg:block w-full md:w-1/2 xl:w-2/3 h-screen">
     <img src="assets/img/CUEILL1.jpg" alt="" class="w-full h-full object-cover">

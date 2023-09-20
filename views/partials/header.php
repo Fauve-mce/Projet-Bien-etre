@@ -6,8 +6,6 @@
 
   <script src="assets/index.js" defer></script>
 
-  
-
   <!-- Pour utiliser la librairie daisyUI -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
 
@@ -15,13 +13,13 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js" defer></script>
 
-  <link rel="stylesheet" href="assets/styles/style_contact.css">
+<link rel="stylesheet" href="assets/styles/style_contact.css">
 
-  <link rel="stylesheet" href="assets/styles/style_nosrecettes.css">
+<link rel="stylesheet" href="assets/styles/style_nosrecettes.css">
 
-  <link rel="stylesheet" href="assets/styles/style_inscription.css">
+<link rel="stylesheet" href="assets/styles/style_inscription.css">
 
-  <link rel="styleheet" href="assets/styles/styles.css">
+<link rel="styleheet" href="assets/styles/styles.css">
 
   <!-- Import du cdn de tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
