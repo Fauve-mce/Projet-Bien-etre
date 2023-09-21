@@ -5,6 +5,7 @@
 
 
   <script src="assets/index.js" defer></script>
+  <script src="assets/carousel.js" defer></script>
 
   <!-- Pour utiliser la librairie daisyUI -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
@@ -20,6 +21,10 @@
 <link rel="stylesheet" href="assets/styles/style_inscription.css">
 
 <link rel="styleheet" href="assets/styles/styles.css">
+
+<link rel="styleheet" href="assets/styles/style_accueil.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
   <!-- Import du cdn de tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -48,6 +53,7 @@
             colorsousnav: "#FFFFF",
             colorfooter: "#714C4E",
             colorbody: "#",
+            containeraccuil: '#f5f5f5',
 
           }
         },

@@ -1,6 +1,6 @@
 
-
-<main class=" min-h-50">
+<body>
+<main class="max-h-[100%]">
         <div class="contact-in mt-20">
             <div class="contact-map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15497644.80210163!2d36.19543450061181!3d-18.501557036534116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21d1a4e3ea238545%3A0x5244e3c1977b1388!2sMadagascar!5e0!3m2!1sen!2sbe!4v1687013183740!5m2!1sen!2sbe" 
@@ -23,3 +23,4 @@
             </div>
         </div>
     </main>
+</body>

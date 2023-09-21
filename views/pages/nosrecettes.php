@@ -1,3 +1,4 @@
+<body>
 <main>
 
 <h1>Nos Recettes</h1>
@@ -37,5 +38,6 @@
   </div>
 
 </main>
+</body>
 
 
