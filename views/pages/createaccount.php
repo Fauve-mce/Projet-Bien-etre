@@ -44,6 +44,21 @@
                 focus:bg-white focus:outline-none" required>
               </div>
 
+              //pour vérifier si le deuxième mot de passe est le même
+              //FORMULAIRE.password.addEventListener("input", (e) =>{
+
+              })
+              //FORMULAIRE.password.addEventListener("input", (e) =>{
+                if (e.targer.value !== FORMULAIRE.password.value){
+                  MSG_CONFIRM_PWD.innerText ="les mots de passe doivent être égeaux";
+                }
+                else{
+                  MSG_CONFORM_PWD.innerText ="";
+                }
+              })
+
+
+
               <div class="form-control mt-4">
                 <label class="label cursor-pointer">
                 <span class="label-text">J'ai lu et j'accepte tous les termes&Conditions</span> 

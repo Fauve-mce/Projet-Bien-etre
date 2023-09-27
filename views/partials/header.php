@@ -6,6 +6,8 @@
 
   <script src="assets/index.js" defer></script>
   <script src="assets/carousel.js" defer></script>
+  <script src="assets/card-click.js" defer></script>
+  
 
   <!-- Pour utiliser la librairie daisyUI -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
@@ -49,11 +51,12 @@
               "900": "#1e3a8a",
               "950": "#172554"
             },
-            colornav: "#E0D1CD",
+            colornav: "E9DFBB",
             colorsousnav: "#FFFFF",
             colorfooter: "#714C4E",
             colorbody: "#",
-            containeraccuil: '#f5f5f5',
+            containeraccuil: "#f5f5f5",
+            voirplusbutton: "#9CB276",
 
           }
         },

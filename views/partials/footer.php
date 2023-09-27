@@ -46,7 +46,7 @@
           />
 
           <button
-            class="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700"
+            class="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-violet-700"
           >
             Subscribe
           </button>
@@ -56,7 +56,7 @@
 
     <div class="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
       <div class="mx-auto max-w-sm lg:max-w-none">
-        <p class="mt-4 text-center text-gray-500 lg:text-left lg:text-lg">
+        <p class="mt-4 text-center text-white lg:text-left lg:text-lg">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium
           natus quod eveniet aut perferendis distinctio iusto repudiandae,
           provident velit earum?
@@ -177,12 +177,12 @@
         class="grid grid-cols-1 gap-8 text-center lg:grid-cols-3 lg:text-left"
       >
         <div>
-          <strong class="font-medium text-gray-900"> Services </strong>
+          <strong class="font-medium text-gray-900 underline"> Services </strong>
 
           <ul class="mt-6 space-y-1">
             <li>
               <a
-                class="text-yellow-600 transition hover:text-neutral-50"
+                class="text-black transition hover:text-neutral-50"
                 href="/"
               >
                 Marketing
@@ -191,7 +191,7 @@
 
             <li>
               <a
-                class="text-yellow-600 transition hover:text-neutral-50"
+                class="text-black transition hover:text-neutral-50"
                 href="/"
               >
                 Graphic Design
@@ -200,7 +200,7 @@
 
             <li>
               <a
-                class="text-gray-700 transition hover:text-gray-700/75"
+                class="text-black transition hover:text-neutral-50"
                 href="/"
               >
                 App Development
@@ -209,7 +209,7 @@
 
             <li>
               <a
-                class="text-gray-700 transition hover:text-gray-700/75"
+                class="text-black transition hover:text-neutral-50"
                 href="/"
               >
                 Web Development
@@ -219,12 +219,12 @@
         </div>
 
         <div>
-          <strong class="font-medium text-gray-900"> About </strong>
+          <strong class="font-medium text-gray-900 underline"> About </strong>
 
           <ul class="mt-6 space-y-1">
             <li>
               <a
-                class="text-gray-700 transition hover:text-gray-700/75"
+                class="text-black transition hover:text-neutral-50"
                 href="/"
               >
                 About
@@ -233,7 +233,7 @@
 
             <li>
               <a
-                class="text-gray-700 transition hover:text-gray-700/75"
+                class="text-black transition hover:text-neutral-50"
                 href="/"
               >
                 Careers
@@ -242,7 +242,7 @@
 
             <li>
               <a
-                class="text-gray-700 transition hover:text-gray-700/75"
+                class="text-black transition hover:text-neutral-50"
                 href="/"
               >
                 History
@@ -251,7 +251,7 @@
 
             <li>
               <a
-                class="text-gray-700 transition hover:text-gray-700/75"
+                class="text-black transition hover:text-neutral-50"
                 href="/"
               >
                 Our Team
@@ -261,12 +261,12 @@
         </div>
 
         <div>
-          <strong class="font-medium text-gray-900"> Support </strong>
+          <strong class="font-medium text-gray-900 underline"> Support </strong>
 
           <ul class="mt-6 space-y-1">
             <li>
               <a
-                class="text-gray-700 transition hover:text-gray-700/75"
+                class="text-black transition hover:text-neutral-50"
                 href="/"
               >
                 FAQs
@@ -274,8 +274,8 @@
             </li>
 
             <li>
-              <a
-                class="text-gray-700 transition hover:text-gray-700/75"
+              <a href="?page=contact"
+                class="text-black transition hover:text-neutral-50"
                 href="/"
               >
                 Contact
@@ -284,7 +284,7 @@
 
             <li>
               <a
-                class="text-gray-700 transition hover:text-gray-700/75"
+                class="text-black transition hover:text-gray-700/75"
                 href="/"
               >
                 Live Chat
@@ -304,13 +304,13 @@
         Created with
         <a
           href=""
-          class="text-slate-700 underline transition hover:text-neutral-50"
+          class="text-white underline transition"
           >Manel Nouira</a
         >
         and
         <a
           href=""
-          class="text-black underline transition hover:text-neutral-50"
+          class="text-white underline transition"
           >Fauve Mareels</a
         >.
       </p>

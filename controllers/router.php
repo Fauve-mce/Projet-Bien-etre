@@ -31,6 +31,14 @@ if(isset($_GET['page'])){
         case 'accueil':
             include_once 'controllers/acceuilController.php';
             break;
+
+        case 'découvrir':
+            include_once 'controllers/découvrirController.php';
+            break;
+
+        case 'profile-user':
+            include_once 'controllers/profileuserController.php';
+            break;
     }
 }
 else {
