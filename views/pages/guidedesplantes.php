@@ -262,7 +262,7 @@
       <div class="lg:col-span-3">
         <ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <li>
-            <a href="#" class="group relative block">
+            <div href="#" class="group relative block">
               <div class="relative h-[350px] sm:h-[450px]">
                 <img
                   src="assets/img/la passiflore3.jpg"
@@ -285,13 +285,15 @@
                 prisée pour son aspect ornemental et ses vertus apaisantes.
                 </p>
 
+                <a href="?page=découvrirplantes">
                 <button
                   type="button"
                   class="mt-3 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white opacity-0 group-hover:opacity-100">
                   Découvrir
                 </button>
+                </a>
               </div>
-            </a>
+            </div>
           </li>
 
           <li>

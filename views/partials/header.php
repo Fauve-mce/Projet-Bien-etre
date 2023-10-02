@@ -3,11 +3,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
-
-  <script src="assets/index.js" defer></script>
   <script src="assets/carousel.js" defer></script>
   <script src="assets/card-click.js" defer></script>
   
+<!-- Import du cdn de tailwind -->
+<script src="https://cdn.tailwindcss.com"></script>
+
 
   <!-- Pour utiliser la librairie daisyUI -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
@@ -15,6 +16,8 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js" defer></script>
+
+<link rel="stylesheet" href="assets/styles/style_nav.css">
 
 <link rel="stylesheet" href="assets/styles/style_contact.css">
 
@@ -28,8 +31,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
-  <!-- Import du cdn de tailwind -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  
 
   <!-- Pour custom -->
   <script>

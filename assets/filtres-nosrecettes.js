@@ -100,13 +100,13 @@ const plantListHTML = filteredPlants.map(plant => {
         <div class="absolute inset-0 flex flex-col items-start justify-end p-6">
           <h3 class="text-2xl font-medium text-black group-hover:opacity-0">${plant.nom}</h3>
           <p class="mt-1.5 max-w-[40ch] text-xl text-black group-hover:opacity-0">${plant.description}</p>
+          <a href="?page=découvrirrecettes">
           <button
             type="button"
             class="mt-3 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
-            <a href="?page=découvrir">
             Découvrir
-            </a>
           </button>
+          </a>
         </div>
       </div>
     </li>

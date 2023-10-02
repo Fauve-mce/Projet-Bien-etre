@@ -1,5 +1,5 @@
 <body>
-<main class="min-h-[550%]">
+<main class="min-h-[630%]">
 <section class="relative h-screen flex flex-col items-center justify-center text-center text-white py-0 px-3">
     <div class="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
         <video class="min-w-full min-h-full absolute object-cover " src="assets/img/vidéo.mp4.mov" type="video/mp4" autoplay muted loop></video>
@@ -10,7 +10,38 @@
     </div>
 </section>
 
-<div class="container ml-9 mt-16 h-auto  translate-x-(-2/4)-(-2/4) bg-containeraccueil block">
+<section class="apropos">
+
+    <div class="heading">
+        <h1>Qui Sommes Nous?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quidem, ipsa dolore iusto dicta sit rem? Debitis non unde 
+            nam, soluta nisi voluptates labore sunt quam blanditiis 
+            atque, molestiae qui quibusdam.</p>
+    </div>
+
+        <div class="container">
+            <div class="about">
+                <div class="about-image">
+                    <img src="assets/img/basilic huile.jpg" width="400px" haight="400px">
+                </div>
+                <div class="about-content">
+                    <h3>Se soigner de son jardin</h3> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Iste beatae libero ex suscipit reprehenderit 
+                        provident, facilis possimus magni doloribus amet 
+                        eos quidem aperiam quia quae voluptate in recusandae.
+                         Repellendus, atque.</p>
+                         <a href="?page=about.php" class="lire-plus">Lire plus</a>
+                </div>
+
+        </div>
+        </div>
+        
+
+</section>
+
+<div id="histoire" class="container ml-80 mt-16 h-auto  translate-x-(-2/4)-(-2/4) bg-containeraccueil block shadow-xl">
     <h1 class="underline decoration-fuchsia-900 text-6xl text-left ml-12"> Nice To Meet You </h1>
 
     <div class="flex justify-between">
@@ -40,9 +71,9 @@
     </div>
 </div>
 
-<div class="bg-white py-24 sm:py-32 mt-10">
+<div class="bg-white py-24 sm:py-32 mt-10 ml-50">
   <div class="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
-    <div class="max-w-2xl">
+    <div id="ancre-our-team" class="max-w-2xl">
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our team</h2>
       <p class="mt-6 text-lg leading-8 text-gray-600">
       Ensemble, notre équipe travaille avec dévouement pour éduquer, inspirer et connecter les individus à la sagesse des plantes et à la beauté de la nature. Nous croyons en un monde où chacun peut apprendre à cultiver, soigner et se connecter avec la Terre d'une manière profonde et significative. Notre passion commune nous guide dans cette mission inspirante.
@@ -98,7 +129,7 @@
 </div>
 
 <section class="text-gray-600 h-fit body-font">
-  <div class="container px-8 py-3 mx-auto block">
+  <div class="container px-8 py-3 mx-auto block shadow-xl">
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Guide des plantes</h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
@@ -165,7 +196,7 @@
         </div>
       </div>
     </div>
-  </div>
+  
   <div class="text-center">
       <button type="button" class="text-white bg-black hover:bg-voirplusbutton focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             <a href="?page=guide-plantes">
@@ -176,11 +207,12 @@
         </svg>
     </button>
     </div>
+  </div>
 </section>
 
 
-<section class="text-gray-600 h-fit mt-24 body-font block">
-  <div class="container px-8 py-3 mx-auto block">
+<section class="text-gray-600 h-fit mt-32 body-font block">
+  <div class="container px-8 py-3 mx-auto block shadow-xl">
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Nos recettes</h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
@@ -247,7 +279,7 @@
         </div>
       </div>
     </div>
-  </div>
+  
   <div class="text-center">
       <button type="button" class="text-white bg-black hover:bg-voirplusbutton focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             <a href="?page=nos-recettes">
@@ -258,6 +290,7 @@
         </svg>
     </button>
     </div>
+  </div>
 </section>
 
 <div class="bg-white py-8 sm:py-32">

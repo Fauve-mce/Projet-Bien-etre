@@ -2,12 +2,12 @@
 <main  class="max-h-[120%]">
       <section class="flex flex-col md:flex-row h-screen items-center mt-20">
 
-          <div class="bg-indigo-200 hidden lg:block w-full md:w-1/2 xl:w-2/3 h-screen">
-            <img src="assets/img/Comment-faire-pour-planter-des-graines.jpg" alt="" class="w-full h-full object-cover">
+          <div class=" hidden lg:block w-14 md:w-1/2 xl:w-2/3 h-screen rounded-3xl m-12 pb-40">
+            <img src="assets/img/Comment-faire-pour-planter-des-graines.jpg" alt="" class="w-full h-full object-cover rounded-3xl">
           </div>
 
-          <div class="bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:mx-0 md:w-1/2 xl:w-1/3 h-screen px-6 lg:px-16 xl:px-12
-          flex items-center justify-center">
+          <div class="bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:mx-0 md:w-1/2 xl:w-1/3 h-70 px-6 lg:px-16 xl:px-12
+          flex items-center justify-center pb-52">
 
           <div class="w-full h-100">
 
@@ -44,7 +44,7 @@
                 focus:bg-white focus:outline-none" required>
               </div>
 
-              //pour vérifier si le deuxième mot de passe est le même
+              <!-- //pour vérifier si le deuxième mot de passe est le même
               //FORMULAIRE.password.addEventListener("input", (e) =>{
 
               })
@@ -55,7 +55,7 @@
                 else{
                   MSG_CONFORM_PWD.innerText ="";
                 }
-              })
+              }) -->
 
 
 

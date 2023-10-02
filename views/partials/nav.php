@@ -1,11 +1,14 @@
-<div class="navbar md:h-1/7 flex flex-row justify-center bg-colornav">
+<nav class="navbar md:h-1/7 flex flex-row justify-center bg-colornav">
+
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
         <embed src="example.mpeg" autostart="false" height="30" width="144" />
       </label>
     </div>
-    <img class="" src="">
+    <div class="logo">
+    <img src="assets/img/logo.png" width="50px" height="50px">AROMACIA
+    </div>
   </div>
 
   <div class="navbar-center hidden lg:flex">
@@ -63,7 +66,7 @@
       </ul>
     </div>
   </div>
-</div>
+</nav>
 
 <!-- <div class="navbar bg-base-100">
   <div class="flex-1">

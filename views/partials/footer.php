@@ -243,7 +243,7 @@
             <li>
               <a
                 class="text-black transition hover:text-neutral-50"
-                href="/"
+                href="?page=accueil#histoire"
               >
                 History
               </a>
@@ -252,7 +252,7 @@
             <li>
               <a
                 class="text-black transition hover:text-neutral-50"
-                href="/"
+                href="?page=accueil#ancre-our-team"
               >
                 Our Team
               </a>

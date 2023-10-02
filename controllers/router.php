@@ -32,12 +32,20 @@ if(isset($_GET['page'])){
             include_once 'controllers/acceuilController.php';
             break;
 
-        case 'découvrir':
-            include_once 'controllers/découvrirController.php';
+        case 'découvrirrecettes':
+            include_once 'controllers/découvrirrecettesController.php';
+            break;
+
+        case 'découvrirplantes':
+            include_once 'controllers/découvrirplantesController.php';
             break;
 
         case 'profile-user':
             include_once 'controllers/profileuserController.php';
+            break;
+
+        case 'about':
+            include_once 'controllers/aboutController.php';
             break;
     }
 }
